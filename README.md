@@ -50,23 +50,27 @@ The app will open in your browser at `http://localhost:8501`.
 ## 📁 Project Structure
 
 ```
-ai-human-detection-project/
-├── app.py                     # Main Streamlit app
-├── models/                    # Trained ML models (.pkl files)
-│   ├── tfidf_vectorizer.pkl
-│   ├── svm_model.pkl
-│   ├── decision_tree_model.pkl
-│   └── adaboost_model.pkl
-├── sample_data/               # Optional example input files
-├── requirements.txt           # Dependencies
-└── README.md                  # Project documentation
+ai_human_detection_project/  
+├── app.py                  # Main Streamlit App  
+├── models/                 # Trained Models  
+│   ├── tfidf_vectorizer.pkl  
+│   ├── svm_model.pkl  
+│   ├── decision_tree_model.pkl  
+│   └── adaboost_model.pkl  
+├── sample_data/           # Optional sample inputs  
+│   ├── sample_texts.txt  
+│   └── sample_data.csv  
+├── notebooks/             # Jupyter notebooks (training, EDA, testing)  
+│   └── Keni_Omorojie_assignment2.ipynb  
+├── README                  
+└── requirements.txt       # Dependencies  
 ```
 
 ---
 
 ## 👤 Author
 
-**Keni JeanMarie Omorojie**
+**Keni Omorojie**
 📧 [keniomorojie@gmail.com](mailto:keniomorojie@gmail.com)
 🐙 [github.com/keni7714](https://github.com/keni7714)
 
